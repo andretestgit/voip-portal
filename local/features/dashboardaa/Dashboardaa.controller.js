@@ -16,7 +16,7 @@ sap.ui.define([
 
 			this.viewModel = new JSONModel({});
 			this.getView().setModel(this.viewModel, "flights");
-
+  
 			this._loadFlights();
 			/*	
 				var oMessages = new JSONModel();
