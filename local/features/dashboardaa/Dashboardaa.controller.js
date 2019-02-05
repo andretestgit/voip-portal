@@ -13,7 +13,7 @@ sap.ui.define([
 			//create view model to manage state
 
 			this.getRouter().getRoute("dashboardaa").attachMatched(this._onRouteMatched, this); //triggered every time view is navigated to
-
+       
 			this.viewModel = new JSONModel({});
 			this.getView().setModel(this.viewModel, "flights");
   
