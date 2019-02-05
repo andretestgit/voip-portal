@@ -1,0 +1,21 @@
+{
+  "name": "voip-portal",
+  "version": "1.0.0",
+  "description": "voip-portal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.mit.edu/ist-devops/voip-portal"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-connect": "~1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-openui5": "^0.11.0"
+  }
+}

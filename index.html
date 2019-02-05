@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+   
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voip Portal Andre</title>
+
+    <script id="sap-ui-bootstrap" src="https://sapui5.hana.ondemand.com/1.52.5/resources/sap-ui-core.js" 
+        data-sap-ui-libs="sap.m"
+        data-sap-ui-theme="sap_belize" data-sap-ui-compatVersion="edge"
+        
+        >>
+        
+           
+       
+    </script>
+
+    <script src="https://use.typekit.net/vsu2nbe.js"></script>
+    <script type="text/javascript" src="jspdf.debug.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <script>
+        // Used to initialize all api endpoint urls
+        var APP_BUILD_NUMBER;
+        var URL_CSRF_API;
+        var URL_AUTH_API;
+        var URL_APP_APIS;
+
+        // Used for running api locally
+        var APP_LOCAL_AUTH;
+
+        sap.ui.getCore().attachInit(function () {
+            var loadLocalStyle = function (buildNumber) {
+                var headEl = document.getElementsByTagName('head')[0];
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                //link.href = path + '/css/style.css';
+                link.href = buildNumber + '/css/style.css';
+                headEl.appendChild(link);
+
+                // var printLink = document.createElement('link');
+                // printLink.rel = 'stylesheet';
+                // printLink.type = 'text/css';
+                // printLink.media = 'print';
+                // //printLink.href = path + '/css/print.css';
+                // printLink.href = 'css/print.css';
+                // headEl.appendChild(printLink);
+            };
+/*
+            var loadShell = function (buildNumber) {
+                jQuery.sap.registerModulePath("edu.mit.voip-portal", buildNumber);
+                new sap.m.Shell({
+                    app: new sap.ui.core.ComponentContainer({
+                        height: "100%",
+                        width: "100%",
+                        name: "edu.mit.voip-portal.local"
+                    })
+                }).placeAt("content");
+            };
+            
+  */      
+			jQuery.sap.registerModulePath('edu.mit.voip-portal', '/local');
+            	new sap.ui.core.ComponentContainer({
+				name : "edu.mit.voip-portal"
+			}).placeAt("content");
+
+            // Bootstrap the app with the build number
+            /*
+            jQuery.ajax({
+                url: "/build.json?_=" + (new Date()).getTime(),
+                method: "GET",
+                success: function (response, status, jqXHR) {
+                    if (jqXHR.getResponseHeader("com.sap.cloud.security.login")) {
+                        window.location.reload(true);
+                        return;
+                    }
+                    // Running on SCP
+                    if (response.buildNumber !== "local" && response.buildNumber !== "WEBIDE") {
+                        APP_BUILD_NUMBER = "local_" + response.buildNumber;
+                        URL_CSRF_API = "/apis/mulesoft/csrf_session_token";
+                        URL_AUTH_API = "/services/userapi/currentUser";
+                        URL_APP_APIS = "/apis";
+                        //loadLocalStyle(APP_BUILD_NUMBER);
+                        loadShell(APP_BUILD_NUMBER);
+                    } else if (response.buildNumber === "WEBIDE") {
+                        APP_BUILD_NUMBER = "WEBIDE";
+                        URL_CSRF_API = "/apis/mulesoft/csrf_session_token";
+                        URL_AUTH_API = "/services/userapi/currentUser";
+                        URL_APP_APIS = "/apis";
+                        //loadLocalStyle(APP_BUILD_NUMBER);
+                        loadShell("local");
+                    }
+                    // Running locally
+                    else {
+                        APP_BUILD_NUMBER = "local";
+                        URL_CSRF_API = "/.mock/csrf_session_token";
+                        URL_AUTH_API = "/.mock/auth.json";
+                        jQuery.ajax({
+                            url: URL_AUTH_API + "?_=" + (new Date()).getTime(),
+                            method: "GET",
+                            success: function (response, status, jqXHR) {
+                                APP_LOCAL_AUTH = response;
+                                URL_APP_APIS = APP_LOCAL_AUTH["AppApiUrl"];
+                                // loadLocalStyle(APP_BUILD_NUMBER);
+                                loadShell(APP_BUILD_NUMBER);
+                            },
+                            error: function (jqXHR, status, error) {
+                                alert("Local configuration missing, add " +
+                                    URL_AUTH_API + " to your workspace.");
+                            }
+                        });
+                    }
+                },
+                error: function (jqXHR, status, error) {
+                    if (jqXHR.getResponseHeader("com.sap.cloud.security.login")) {
+                        window.location.reload(true);
+                        return;
+                    }
+                    alert("Application failed to load, please contact the system administrator.");
+                }
+            });
+			*/
+        });
+    </script>
+</head>
+
+<body class="sapUiBody" id="content">
+</body>
+
+</html>

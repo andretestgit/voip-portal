@@ -1,0 +1,100 @@
+module.exports = function (grunt) {
+
+    grunt.initConfig({
+        connect: {
+            server: {
+                options: {
+                    port: 9000,
+                    hostname: 'localhost',
+                    base: '.'
+                }
+            }
+        },
+        jshint: {
+            files: ['Gruntfile.js', 'neo-app.json', 'package.json', 'local/**/*.js', 'local/**/*.json'],
+            options: {
+                globals: {
+                    jQuery: true
+                }
+            }
+        },
+        less: {
+            development: {
+                options: {
+                    compress: true,
+                    yuicompress: true,
+                    optimization: 2
+                },
+                files: {
+                    "local/css/less.css": "local/less/style.less" // destination file and source file
+                }
+            }
+        },
+        watch: {
+            files: ['local/**/*'],
+            styles: {
+                files: ['local/less/*', 'local/less/modules/*'], // which files to watch
+                tasks: ['less']
+            }
+        },
+        openui5_preload: {
+            component: {
+                options: {
+                    resources: {
+                        cwd: "local",
+                        prefix:"edu/mit/voip-portal",
+                        src: [
+                            '**/*.js',
+                            '**/*.fragment.html',
+                            '**/*.fragment.json',
+                            '**/*.fragment.xml',
+                            '**/*.view.html',
+                            '**/*.view.json',
+                            '**/*.view.xml',
+                            '**/*.properties'
+                        ]
+                    },
+                    dest: 'local'
+                },
+                components:"edu/mit/voip-portal"
+            }
+        }
+    });
+
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-openui5');
+
+    grunt.registerTask('default', ["less"]);
+    grunt.registerTask('test', []);
+    grunt.registerTask('server', function (target) {
+        grunt.task.run([
+            'connect',
+            "less",
+            'watch'
+        ]);
+
+    });
+    // Minifies files and generates a component-preload file
+    grunt.registerTask('build', ['openui5_preload']);
+
+
+    // Package.json dev dep for compiling component-preload
+    // grunt.loadNpmTasks('@sap/grunt-sapui5-bestpractice-build');
+    // // grunt.registerTask('sap', [
+    // //     'lint',
+    // //     'clean',
+    // //     'build'
+    // // ]);
+    // "@sap/grunt-sapui5-bestpractice-build": "1.3.50",
+    // "grunt-contrib-clean": "1.1.0",
+    // "grunt-contrib-copy": "1.0.0",
+    // "grunt-contrib-cssmin": "1.0.2",
+    // "grunt-contrib-uglify": "2.3.0",
+    // "grunt-mkdir": "1.0.0",
+    // "grunt-openui5": "0.11.0",
+    // "grunt-replace": "1.0.1"
+
+};

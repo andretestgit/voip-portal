@@ -1,0 +1,7 @@
+{
+    "name": "XXXXX",
+    "displayName": "XXXX",
+    "AppApiUrl": "https://mit-PROJECT_NAME-v1-dev.cloudhub.io/api",
+    "Authorization": "Basic XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "X-Referred-User": "XXXXXXX"
+}

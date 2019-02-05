@@ -1,0 +1,29 @@
+# Travis CI configuration file for travis.mit.edu
+# Created by Juan Heyns - 2016/04/25
+
+language: node_js
+
+node_js:
+  - "0.10.36"
+
+# Install grunt for running test command
+before_script:
+  - npm install grunt-cli -g
+
+# Exclude tags created by Travis to prevent an infinite loop
+branches:
+  except:
+    - /^voip-portal-build-[0-9a-z\-]*/
+
+# Create a git tag and make a versioned zip file, cache busting, deploy to hcp.
+after_success:
+  - git config --global user.email "builds@travis.mit.edu"
+  - git config --global user.name "Travis CI"
+  - export GIT_TAG=voip-portal-build-$TRAVIS_BRANCH-$(date -u "+%Y%m%d")-$TRAVIS_BUILD_NUMBER
+  - echo -n $GIT_TAG > version
+  - git commit -m "Set build VERSION number" version
+  - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
+  - git push --quiet git@github.mit.edu:ist-devops/voip-portal.git $GIT_TAG > /dev/null 2>&1
+  - grunt build
+  - ./cache_bust.sh
+  - ./deploy_hcp.sh

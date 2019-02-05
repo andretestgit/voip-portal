@@ -1,0 +1,71 @@
+{
+	"welcomeFile": "/index.html",
+	"routes": [{
+			"path": "/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources",
+				"version": "1.52.5"
+			},
+			"description": "SAPUI5 Resources"
+		}, {
+			"path": "/test-resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/test-resources",
+				"version": "1.52.5"
+			},
+			"description": "SAPUI5 Test Resources"
+		}, {
+			"path": "/apis",
+			"target": {
+				"type": "destination",
+				"name": "hcp-support"
+			}
+		}, {
+			"path": "/flights",
+			"target": {
+				"type": "destination",
+				"name": "mule_aa"
+
+			},
+			"description": "Mule AA"
+
+		}, {
+			"path": "/slack",
+			"target": {
+				"type": "destination",
+				"name": "slack_demo",
+				"entryPath": "/"
+			},
+			"description": "Slack"
+		}
+
+	],
+	"sendWelcomeFileRedirect": true,
+	"securityConstraints": [{
+		"description": "Access User Data",
+		"protectedPaths": [
+			"/"
+		],
+		"excludedPaths": [
+			"/favicon.ico"
+		]
+	}],
+	"cacheControl": [{
+		"path": "index.html",
+		"directive": "none",
+		"maxAge": 0
+	}, {
+		"directive": "public",
+		"maxAge": 31536000
+	}],
+	"headerWhiteList": [
+		"Content-Filename",
+		"X-Request-Status",
+		"X-Support-Session"
+	],
+	"authenticationMethod": "none"
+}
