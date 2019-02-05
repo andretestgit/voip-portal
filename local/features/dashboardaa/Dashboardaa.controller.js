@@ -13,11 +13,41 @@ sap.ui.define([
 			//create view model to manage state
 
 			this.getRouter().getRoute("dashboardaa").attachMatched(this._onRouteMatched, this); //triggered every time view is navigated to
-       
-			this.viewModel = new JSONModel({});
-			this.getView().setModel(this.viewModel, "flights");
-  
-			this._loadFlights();
+
+			/*this.viewModel = new JSONModel({});
+			this.getView().setModel(this.viewModel, "flights");*/
+
+			var oFlights = new JSONModel();
+			this.getView().setModel(oFlights, "flights");
+
+			//this._loadFlights();
+
+			var aData = {
+				flightlist: [{
+					"ID": 1,
+					"code": "rree0001",
+					"price": 541,
+					"departureDate": "2016-01-20T00:00:00",
+					"origin": "MUA",
+					"destination": "LAX",
+					"emptySeats": 0
+
+				}, {
+					"ID": 2,
+					"code": "eefd0123",
+					"price": 300,
+					"departureDate": "2016-01-25T00:00:00",
+					"origin": "MUA",
+					"destination": "CLE",
+					"emptySeats": 7
+
+				}]
+			};
+			oFlights.setData(aData);
+
+			/*	this.getView().getModel("flights").setData({
+					rows: aData
+				});*/
 			/*	
 				var oMessages = new JSONModel();
 				this.getView().setModel(oMessages, "messages");
@@ -44,6 +74,7 @@ sap.ui.define([
 		 *@memberOf edu.mit.voip-portal.features.dashboardaa.Dashboardaa
 		 */
 		_loadFlights: function () {
+
 			var oView = this.getView();
 			oView.setBusy(true);
 
@@ -54,11 +85,14 @@ sap.ui.define([
 
 			$.ajax({
 					type: 'GET',
-					url: "/api/flights",
+					url: '/flights',
+					dataType: 'json',
 					async: false
 				}).done(function (results) {
-					console.log(results);
-					self.getView().getModel("flights").setProperty("/data", results.flights);
+					//console.log(results);
+					//self.getView().getModel("flights").setProperty("/data", results.flights);
+					self.getView().getModel("flights").setData(results);
+
 					oView.setBusy(false);
 				})
 				.fail(function (err) {

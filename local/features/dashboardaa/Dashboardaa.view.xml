@@ -4,11 +4,11 @@
 		<pages>
 			<Page title="American Airlines Flights">
 				<content>
-					<Table noDataText="Drop column list items here and columns in the area above" id="table0" items="{flights>data}">
+					<Table noDataText="No Flights Found" id="table0" items="{flights>/flightlist}">
 						<items>
 							<ColumnListItem type="Active" id="item0">
 								<cells>
-									<Text text="{flights>id}" id="text0"/>
+									<Text text="{flights>ID}" id="text0"/>
 									<Text text="{flights>origin}" id="text1"/>
 									<Text text="{flights>destination}" id="text2"/>
 								</cells>
