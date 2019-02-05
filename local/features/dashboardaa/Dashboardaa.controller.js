@@ -20,10 +20,9 @@ sap.ui.define([
 			var oFlights = new JSONModel();
 			this.getView().setModel(oFlights, "flights");
 
-			//this._loadFlights();
+			this._loadFlights();
 
-			var aData = {
-				flightlist: [{
+			/*	var aData = [{
 					"ID": 1,
 					"code": "rree0001",
 					"price": 541,
@@ -41,9 +40,8 @@ sap.ui.define([
 					"destination": "CLE",
 					"emptySeats": 7
 
-				}]
-			};
-			oFlights.setData(aData);
+				}];*/
+			/*	oFlights.setData(aData);*/
 
 			/*	this.getView().getModel("flights").setData({
 					rows: aData
