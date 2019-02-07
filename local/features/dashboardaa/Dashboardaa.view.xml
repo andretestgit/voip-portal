@@ -1,8 +1,6 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
-	controllerName="edu.mit.voip-portal.features.dashboardaa.Dashboardaa">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="edu.mit.voip-portal.features.dashboardaa.Dashboardaa">
 	<App>
-		<pages>
-			<Page title="American Airlines Flights">
+		<pages><Page title="American Airlines Flights">
 				<content>
 					<Table noDataText="No Flights Found" id="table0" items="{flights>/}">
 						<items>

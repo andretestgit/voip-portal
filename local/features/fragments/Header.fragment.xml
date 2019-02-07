@@ -1,0 +1,26 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc">
+	<OverflowToolbar>
+		<!-- <Text text="{i18n>Header.Text.Park}" class="sapUiMediumMarginBegin headerText" /> -->
+		<!-- <Button text="{i18n>Header.Text.Park}" class="sapUiMediumMarginBegin header-button sapUiMediumMarginEnd" press="onNavHome" /> -->
+		<Image src="local/images/A.png" height="3rem" class="sapUiLargeMarginBegin" press="onNavHome"/>
+		<ToolbarSpacer/>
+		<Text text="NON PRODUCTION: DEV" visible="{= ${sessionData>/environment} === 'dev'}" class="envHeader sapUiSmallMarginEnd"></Text>
+		<Text text="NON PRODUCTION: TEST" visible="{= ${sessionData>/environment} === 'test'}" class="envHeader sapUiSmallMarginEnd"></Text>
+		<Button text="{i18n>Header.Button.FAQ}" class="sapUiSmallMarginEnd header-button" type="Transparent" visible="{device>/system/desktop}"/>
+		<!-- <Button text="{i18n>Header.Button.Logout}" class="sapUiMediumMarginEnd headerButton" type="Transparent" /> -->
+		<MenuButton text="Kerb" visible="{device>/system/desktop}" class="header-button">
+			<menu>
+				<Menu>
+					<items>
+						<MenuItem text="Logout" press="onPressLogout"/>
+					</items>
+				</Menu>
+			</menu>
+		</MenuButton>
+		<!--	<Link text="{i18n>headerFAQ}" class="sapUiSmallMarginEnd headerText"/><Link text="{i18n>headerLogout}" class="sapUiMediumMarginEnd headerText" />	-->
+	</OverflowToolbar>
+</core:FragmentDefinition>

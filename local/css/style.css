@@ -1,0 +1,887 @@
+html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: 100%;
+    margin-left: auto;
+    left: 0;
+    background-color: #5f5f5f;
+    margin-right: auto
+}
+
+.sapMText {
+    font-family: adelle-sans, sans-serif !important;
+    font-size: 16px
+}
+
+.sapMTB-Transparent-CTX .sapMText {
+    font-size: 16px
+}
+
+.sapMInputBaseInner {
+    font-size: 16px
+}
+
+.sapMSelectListItemBase {
+    font-size: 16px
+}
+
+.sapMLnk {
+    font-family: adelle-sans, sans-serif !important;
+    font-size: 16px
+}
+
+.sapUiBody {
+    font-family: adelle-sans, sans-serif;
+    font-style: normal;
+    font-size: 16px
+}
+
+.sapMBtnInner {
+    font-family: adelle-sans, sans-serif !important;
+    font-size: 16px
+}
+
+.sapMLnk,
+.sapMBtnInner {
+    font-family: adelle-sans, sans-serif;
+    font-size: 16px
+}
+
+.sapMFT {
+    font-family: adelle-sans, sans-serif;
+    font-style: normal;
+    font-size: 16px
+}
+
+.sapMListTbl .sapMText,
+.sapMListTbl .sapMLabel .h1 {
+    font-size: 16px
+}
+
+.h2 {
+    font-size: 1rem
+}
+
+.h3 {
+    font-size: .8rem
+}
+
+.sapMMenuBtn.sapMMenuBtnRegular .sapMBtnInner {
+    color: white
+}
+
+.scrollContainer {
+    height: calc(96%) !important;
+    background: #efefef !important;
+    padding-bottom: 4rem !important
+}
+
+.sapMFocus .sapMInputDivWrapper:not(.sapMInputBaseDisabledInner)::before {
+    border: none !important
+}
+
+html.sap-desktop .sapMBtn:focus>.sapMFocusable {
+    outline: 0 dotted #000000 !important;
+    outline-offset: -3px
+}
+
+html.sap-desktop .sapMLnk:focus:not(.sapMLnkDsbl) {
+    outline: 0 dotted #000000
+}
+
+.sapMLIBFocusable:focus {
+    outline: none
+}
+
+.sapMIBar.sapMHeader-CTX {
+    color: #8d3433;
+    background-color: #8d3433;
+    filter: none;
+    background-image: none;
+    height: 4rem
+}
+
+.sapMPage>.sapMPageHeader+section,
+.sapMPage>.sapMPageSubHeader+section,
+.sapMPage>.sapMPageHeader+.sapUiHiddenPlaceholder+section {
+    top: 4rem
+}
+
+.sapMPanel .sapMPanelWrappingDiv .sapMPanelHdr,
+.sapMPanel .sapMPanelWrappingDivTb .sapMIBar.sapMTB {
+    padding-left: .2rem;
+    margin-left: 0
+}
+
+.sapMListTblSubCntRow>.sapMListTblSubCntSpr,
+.sapMListTblSubCntRow>.sapMListTblSubCntHdr .sapMText,
+.sapMListTblSubCntRow>.sapMListTblSubCntHdr .sapMLabel {
+    color: black;
+    padding-top: 0;
+    font-weight: bold
+}
+
+.sapMBtnInner {
+    text-shadow: none !important
+}
+
+.sapUiSizeCompact .sapMBtn {
+    height: 3rem;
+    padding: 0 0
+}
+
+.sapUiSizeCompact .sapMBtnInner.sapMBtnText {
+    padding: none !important
+}
+
+.sapUiTableCnt {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important
+}
+
+.sapUiTableTr>td {
+    border-right: none !important
+}
+
+.sapUiTableCol {
+    border-right: none !important;
+    font-weight: bold !important
+}
+
+.sapMIBar-CTX .sapMBtn:hover>.sapMBtnHoverable:not(.sapMBtnActive) {
+    background-color: #d74647;
+    color: #346187
+}
+
+.sapMShellBrandingBar {
+    display: none
+}
+
+.sapUiRootBackground,
+.sapMShellGlobalOuterBackground {
+    background: #b7b7b7
+}
+
+.main-container {
+    width: 100%;
+    background: #efefef !important
+}
+
+.side-container {
+    width: 100%;
+    background: white !important;
+    padding: 0 .5rem
+}
+
+.dashboard-tile-container {
+    width: 100%
+}
+
+.dashboard-tile {
+    width: 100%
+}
+
+.account-billing-tile {
+    width: 100%
+}
+
+.account-tile {
+    width: 100%
+}
+
+.permit-tile {
+    width: 100%
+}
+
+.ticket-tile {
+    width: 100%
+}
+
+.vehicle-tile {
+    width: 100%
+}
+
+.ticket-payment-tile {
+    min-width: 30rem
+}
+
+@media only screen and (min-width:1380px) {
+    .ticket-tile {
+        width: 60%
+    }
+}
+
+@media only screen and (min-width:1175px) {
+    .side-container {
+        width: 25% !important;
+        overflow: auto !important;
+        min-height: calc(95vh) !important;
+        padding: 6rem 2rem 0 2rem
+    }
+    .main-container {
+        width: 75% !important;
+        overflow: auto !important
+    }
+    .account-tile {
+        width: 60%
+    }
+    .account-billing-tile {
+        width: 40%
+    }
+    .vehicle-tile {
+        width: 75%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .large-margin-begin {
+        margin-left: 3rem !important
+    }
+    .dashboard-tile-container {
+        width: 50%
+    }
+    .dashboard-tile {
+        width: 90%
+    }
+    .permit-tile {
+        width: 80%
+    }
+    .parking-activity {
+        margin-left: 6rem !important
+    }
+}
+
+@media (min-width:1660px) {
+    html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+        width: 85%;
+        margin-left: auto;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin-right: auto
+    }
+}
+
+@media (min-width:1281px) {
+    .white-panel {
+        padding: 2rem 2.5rem 3.5rem 2.5rem
+    }
+    .title-global-padding {
+        margin: 3rem 0 1rem 3rem
+    }
+    .responsive-padding {
+        padding: 0 0 4rem 3rem
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .white-panel {
+        padding: 2rem 2.5rem 3.5rem 2.5rem
+    }
+    .title-global-padding {
+        margin: 3rem 0 1rem 3rem
+    }
+    .responsive-padding {
+        padding: 0 3rem 4rem 3rem
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .responsive-padding {
+        padding: 2rem
+    }
+    .white-panel {
+        padding: 2rem 2rem 3.5rem 2rem
+    }
+    .title-global-padding {
+        margin: 2rem 0 1rem 2rem
+    }
+    .responsive-padding {
+        padding: 0 2rem 4rem 2rem
+    }
+    .banner-box {
+        margin: 0 2rem !important
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+    .responsive-padding {
+        padding: 2rem
+    }
+    .white-panel {
+        padding: 2rem 2rem 3.5rem 2rem
+    }
+    .title-global-padding {
+        margin: 2rem 0 1rem 2rem
+    }
+    .responsive-padding {
+        padding: 0 2rem 4rem 2rem
+    }
+    .banner-box {
+        margin: 0 2rem !important
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .responsive-padding {
+        padding: 1rem
+    }
+    .white-panel {
+        padding: 1rem .5rem 2rem .5rem
+    }
+    .title-global-padding {
+        margin: 1rem 0 1rem 1rem
+    }
+    .responsive-padding {
+        padding: 0 1rem 3rem 1rem
+    }
+    .nav-link {
+        font-size: 1rem
+    }
+    .banner-box {
+        margin: 0 1rem !important
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .responsive-padding {
+        padding: 1rem .5rem 4rem .5rem
+    }
+    .white-panel {
+        padding: 1rem .5rem 2rem .5rem
+    }
+    .account-flex-padding {
+        padding: 1rem .5rem 4rem .5rem
+    }
+    .title-global-padding {
+        margin: .5rem 0 .5rem .5rem
+    }
+    .responsive-padding {
+        padding: 0 .5rem 4rem .5rem
+    }
+    .nav-link {
+        font-size: 1rem
+    }
+    .banner-box {
+        margin: 0 .5rem !important
+    }
+}
+
+.icon-tab.sapMLnk:focus:not(.sapMLnkDsbl) {
+    outline-offset: 0;
+    text-decoration: none !important
+}
+
+.icon-tab.sapMLnk:hover:not(.sapMLnkDsbl) {
+    text-decoration: none !important;
+    border-bottom: 2px solid black;
+    color: black !important
+}
+
+.icon-tab.sapMLnk {
+    color: #b3b3b3
+}
+
+.icon-tab .sapMLnk:active:not(.sapMLnkDsbl),
+.icon-tab.sapMLnk:focus:not(.sapMLnkDsbl) {
+    color: black !important
+}
+
+.underline.sapMLnk {
+    border-bottom: 4px solid black !important;
+    color: black
+}
+
+.white-background {
+    background-color: white !important
+}
+
+.white-panel {
+    background-color: white !important;
+    align-self: flex-start
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 1rem
+}
+
+.border-bottom-visitor {
+    border-bottom: 1px solid #cccccc
+}
+
+.border-bottom-newPermit {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 2rem
+}
+
+.permit-details {
+    padding: 2rem 1rem;
+    background-color: #efefef
+}
+
+.title-global {
+    font-size: 26px !important
+}
+
+.bold-text {
+    font-weight: bold !important
+}
+
+.vehicle-ticket-container {
+    background: #f5f6f6;
+    padding: .2rem 1rem
+}
+
+.text-section-head {
+    font-weight: bold;
+    color: #27508b;
+    font-size: 1rem
+}
+
+.addVehicle-head {
+    font-weight: bold;
+    font-size: 1rem
+}
+
+.blue-text {
+    color: #27508b
+}
+
+.red-text {
+    color: #8d3433
+}
+
+.grey-text {
+    color: grey !important
+}
+
+.italic-text {
+    font-style: italic
+}
+
+.envHeader {
+    display: inline-block;
+    font-weight: 500;
+    background-color: white;
+    padding: 4px 10px;
+    color: #467082;
+    border-radius: 8px;
+    white-space: nowrap;
+    margin: 12px 0 0 30px;
+    font-size: 12px
+}
+
+.green-button .sapMBtnInner {
+    color: white !important;
+    background: green !important;
+    padding: 5px 10px !important;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 3rem
+}
+
+.green-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.green-button .sapMBtnContent {
+    padding: 20px
+}
+
+.blue-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.blue-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.blue-button .sapMBtnContent {
+    padding: 10px
+}
+
+.btn-8 .sapMBtnInner {
+    width: 8rem !important
+}
+
+.combo {
+    height: 2rem !important
+}
+
+.combo .sapMComboBoxTextFieldArrow {
+    padding-top: 2px
+}
+
+.input .sapMInputDivWrapper {
+    height: 2rem !important
+}
+
+.side-link-container {
+    padding: 0 1rem 0 1rem
+}
+
+.white-container {
+    background: white !important;
+    padding-bottom: 2rem !important
+}
+
+.one-rem-padding {
+    padding: 1rem
+}
+
+.padding-bottom {
+    padding-bottom: 2rem
+}
+
+.progress-indicator .sapMPIBarNeutral {
+    background: #27508b
+}
+
+.xs-pt {
+    padding-top: 3px
+}
+
+.headerSelected {
+    background-color: #d74647
+}
+
+.headerText {
+    color: white
+}
+
+.header-button.sapMBtn {
+    height: 4rem;
+    padding: 0 0
+}
+
+.header-button .sapMBtn {
+    padding: 0
+}
+
+.header-button.sapMMenuBtn {
+    height: 4rem;
+    padding: 0 0
+}
+
+.header-button .sapMBtnInner {
+    height: 4rem;
+    padding-top: 10px
+}
+
+.header-button .sapMBtnContent {
+    color: white
+}
+
+.banner-box {
+    border: 1px solid black;
+    margin: 0 3rem;
+    padding: 1rem;
+    background-color: white
+}
+
+.banner-text {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px
+}
+
+.banner-text-warning {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px;
+    color: #8d3433
+}
+
+.banner-text-pending {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px;
+    color: #F1C134
+}
+
+.banner-text-success {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px;
+    color: green
+}
+
+.listHeader {
+    background: #e1e1e1;
+    min-height: 3rem;
+    padding: .5rem 1rem .5rem 1rem !important
+}
+
+.listFooter {
+    background: #f5f6f6;
+    padding: .5rem 1rem .5rem 1rem !important
+}
+
+.listFooterBilling {
+    background: #f5f6f6;
+    height: 5rem;
+    padding: .5rem 1rem .5rem 1rem !important
+}
+
+.listFooterPermit {
+    background: #f5f6f6;
+    height: 3rem
+}
+
+.listFooterPermit .sapMFlexItem {
+    width: 100%
+}
+
+.border-right {
+    border-right: 1px solid #e5e5e5
+}
+
+.listItem {
+    padding: 1rem !important
+}
+
+.billAmount {
+    font-size: 2rem
+}
+
+.billDetails {
+    font-size: 1.1rem
+}
+
+.progressIndicator .sapMFlexBox {
+    width: 100% !important
+}
+
+.link {
+    color: #8d3433 !important;
+    font-size: 1.2rem;
+    width: 15rem
+}
+
+.openBilling {
+    color: #1891eb;
+    font-weight: bold
+}
+
+.email {
+    padding: 1rem;
+    background: #f5f6f6
+}
+
+.ticket-issued {
+    background: #8d3433
+}
+
+.ticket-appealed {
+    background: #F1C134
+}
+
+.ticket-text {
+    color: white;
+    font-weight: bold
+}
+
+.ticket-no-border.sapMLIB {
+    border-bottom: none !important
+}
+
+.addVehicleButton {
+    height: 3rem;
+    padding: 0
+}
+
+.addVehicleButton .sapMBtnInner {
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.addVehicleButton .sapMBtnInner .sapMBtnContent {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #707070 !important
+}
+
+.addVehicleButton.sapUiSizeCompact .sapMBtn {
+    padding: none !important;
+    height: 3rem !important
+}
+
+.image-map {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-right: 1.3rem
+}
+
+.selectedItem.sapMListBGTranslucent .sapMListTblHeader,
+.sapMListBGTranslucent .sapMListTblFooter {
+    background: #e8eff6
+}
+
+.customTableHeader-panel th {
+    background: #e5e5e500 0;
+    border-bottom: 0 solid #cccccc
+}
+
+.customTableHeader th {
+    background: #e5e5e500 0;
+    border-bottom: 1px solid #cccccc
+}
+
+.customTableHeaderText .sapMListTblHeaderCell .sapMText {
+    font-size: .7rem !important;
+    color: #9a9898 !important;
+    font-weight: bold !important
+}
+
+.transparent-table-header th {
+    background: #e5e5e500 0
+}
+
+.transparent-table-header .sapMListTblHeaderCell .sapMText {
+    font-weight: bold !important
+}
+
+.noBorderBottom.sapMTB {
+    border-bottom-width: 0
+}
+
+.expand-button {
+    transition: .5s
+}
+
+.expand-button.sapMTB-Transparent-CTX .sapMBtn:not(.sapMBtnDisabled)>.sapMBtnInner:not(.sapMToggleBtnPressed):not(.sapMBtnEmphasized):not(.sapMBtnAccept):not(.sapMBtnReject):not(.sapMBtnActive):hover {
+    background: rgba(179, 179, 179, 0)
+}
+
+.panel-no-border {
+    border-bottom: none
+}
+
+.table-container {
+    min-height: 70vh !important
+}
+
+.parking-activity {
+    margin-left: -2.5rem
+}
+
+.ticket-payment-amount {
+    color: #8d3433;
+    font-size: 1.5rem
+}
+
+.ticket-date {
+    font-size: 1.2rem;
+    font-weight: 600
+}
+
+.ticket-number {
+    font-style: italic;
+    font-weight: 500
+}
+
+.ticket-lot {
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.ticket-view-paper {
+    font-size: .8rem;
+    margin-top: 4px
+}
+
+.ticket-container {
+    background: white;
+    padding: 2rem 2.5rem 3.5rem 2.5rem;
+    max-width: 500px
+}
+
+.appeal-file-upload .sapMUCNoDataPage .sapUiIcon {
+    font-size: 3rem !important
+}
+
+.submit-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.submit-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.submit-button .sapMBtnContent {
+    padding: 2.5rem
+}
+
+.affiliation-text {
+    font-size: .8rem;
+    font-style: italic
+}
+
+.permit__link_addcomment {
+    margin-top: 6px
+}
+
+.permit__link_addcomment_comment {
+    margin-bottom: -6px
+}
+
+.permit__sub_text {
+    font-size: 14px;
+    color: #707070
+}
+
+.permit__comment_box {
+    top: 6px !important
+}
+
+.permit__comment_header .sapMFlexItem {
+    align-self: flex-end
+}
+
+.permit__checkbox {
+    margin-left: -0.5rem
+}
+
+.permit__checkbox_text {
+    margin-top: 4px;
+    margin-right: 3px
+}
+
+.permit__checkbox_text_price {
+    margin-top: 6px;
+    color: #707070;
+    font-size: 14px
+}
+
+.seg_button.sapMSegB .sapMSegBBtn {
+    width: auto !important;
+    height: auto !important;
+    padding: .3rem 1rem !important;
+    font-size: 16px
+}
+
+.filter-popover.sapMLIB {
+    padding: 0
+}
+
+.testing th:hover {
+    background: #efefef !important
+}
