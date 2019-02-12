@@ -1,6 +1,7 @@
-<mvc:View controllerName="edu.mit.voip-portal.features.App" 
-	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" 
-	xmlns="sap.m" 
-	xmlns:core="sap.ui.core">	
-		<App id="app" class=""></App>	
+<mvc:View controllerName="edu.mit.voip-portal.features.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Page id="page" title="Testing" enableScrolling="true">
+		<customHeader><core:Fragment fragmentName="edu.mit.voip-portal.features.fragments.Header" type="XML"/></customHeader>
+		<App id="app" class="app-background"></App>
+	</Page>
 </mvc:View>

@@ -77,8 +77,8 @@
             },
             "routes": [{
                     "pattern": "",
-                    "name": "dashboardaa",
-                    "target": "dashboardaa"
+                    "name": "dashboard",
+                    "target": "dashboard"
                 }
             ],
             "targets": {
@@ -88,6 +88,10 @@
                 },
                 "dashboardaa": {
 					"viewName": "dashboardaa.Dashboardaa",
+					"transition": "show"
+				},
+				"dashboard": {
+					"viewName": "dashboard.Dashboard",
 					"transition": "show"
 				}
                 

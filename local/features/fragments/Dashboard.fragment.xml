@@ -1,0 +1,44 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+	<HBox wrap="Wrap" width="100%" visible="{= ${sessionData>/user/type} !== 'COORDINATOR'}">
+		<VBox class="main-container" width="100%">
+			<!-- Banner Messages -->
+			<VBox items="{sessionData>/banners}" class="">
+				<HBox justifyContent="SpaceBetween" class="sapUiSmallMarginTop banner-box">
+					<HBox>
+						<core:Icon src="sap-icon://pending" class="sapUiTinyMarginEnd" size="2rem" color="#F1C134" visible="{= ${sessionData>type} === 'P'}"/>
+						<core:Icon src="sap-icon://pending" class="sapUiTinyMarginEnd" size="2rem" color="#8d3433" visible="{= ${sessionData>type} === 'W'}"/>
+						<core:Icon src="sap-icon://pending" class="sapUiTinyMarginEnd" size="2rem" color="Green" visible="{= ${sessionData>type} === 'S'}"/>
+						<VBox>
+							<Text text="{sessionData>header}" class="banner-text-pending" visible="{= ${sessionData>type} === 'P'}"/>
+							<Text text="{sessionData>header}" class="banner-text-warning" visible="{= ${sessionData>type} === 'W'}"/>
+							<Text text="{sessionData>header}" class="banner-text-success" visible="{= ${sessionData>type} === 'S'}"/>
+							<Text text="{sessionData>message}"/>
+						</VBox>
+					</HBox>
+					<core:Icon src="sap-icon://sys-cancel" class="sapUiTinyMarginEnd" press="onPressDeleteBannerMessage" visible="{sessionData>cancel}"/>
+				</HBox>
+			</VBox>
+			<VBox wrap="Wrap" class="responsive-padding" width="100%">
+				<HBox alignItems="End" class="sapUiTinyMarginBottom dashboard-tile-max" width="100%">
+					<Text text="{i18n>Dashboard.Text.MyAccounts}" class="title-global sapUiSmallMarginTop sapUiTinyMarginEnd"/>
+					<Link id="myAccount_link" text="{i18n>Dashboard.Link.SwitchToListView}" class="sapUiLargeMarginTop sapUiTinyMarginEnd"
+						press="onPressViewDetails" textAlign="Right"/>
+					<VBox class="proxy-account-switch">
+						<Link id="myProxyAccounts_link" text="{i18n>Dashboard.Link.SwitchToProxyAccounts}" press="onPressViewDetails" textAlign="Right"/>
+					</VBox>
+				</HBox>
+				<VBox height="100%" class="dashboard-tile-container">
+					<!--My Accounts-->
+					<core:Fragment fragmentName="edu.mit.voip-portal.features.fragments.Myaccounts" type="XML"/>
+				</VBox>
+				<!--Section for permit info-->
+			</VBox>
+		</VBox>
+		<VBox class="side-container ">
+			<VBox class="">
+				<Text text="{i18n>Global.Text.QuestionContact}"/>
+				<core:Fragment fragmentName="edu.mit.voip-portal.features.fragments.Contact" type="XML"/>
+			</VBox>
+		</VBox>
+	</HBox>
+</core:FragmentDefinition>

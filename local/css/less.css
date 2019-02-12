@@ -1,0 +1,2225 @@
+html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: 100%;
+    margin-left: auto;
+    left: 0;
+    background-color: #5f5f5f;
+    margin-right: auto
+}
+
+.proxy-account-switch {
+    margin-left: 10rem
+}
+
+.sapMText {
+    font-family: adelle-sans, sans-serif !important;
+    font-size: 15px
+}
+
+.sapMTB-Transparent-CTX .sapMText {
+    font-size: 15px
+}
+
+.sapMInputBaseInner {
+    font-size: 15px
+}
+
+.sapMSelectListItemBase {
+    font-size: 15px
+}
+
+.sapMLnk {
+    font-family: adelle-sans, sans-serif !important;
+    font-size: 15px;
+    color: #157dca
+}
+
+.sapMLnk:hover:not(.sapMLnkDsbl) {
+    color: #1891eb
+}
+
+.sapUiBody {
+    font-family: adelle-sans, sans-serif;
+    font-style: normal;
+    font-size: 15px
+}
+
+.sapMBtnInner {
+    font-family: adelle-sans, sans-serif !important;
+    font-size: 15px
+}
+
+.sapMLnk,
+.sapMBtnInner {
+    font-family: adelle-sans, sans-serif;
+    font-size: 15px
+}
+
+.sapMFT {
+    font-family: adelle-sans, sans-serif;
+    font-style: normal;
+    font-size: 15px
+}
+
+.sapMListTbl .sapMText,
+.sapMListTbl .sapMLabel .h1 {
+    font-size: 16px
+}
+
+.h2 {
+    font-size: 22px
+}
+
+.h3 {
+    font-size: 18px
+}
+
+.sapMMenuBtn.sapMMenuBtnRegular .sapMBtnInner {
+    color: white
+}
+
+.scrollContainer {
+    height: calc(96%) !important;
+    background: #f0f0f0 !important;
+    padding-bottom: 4rem !important
+}
+
+.sapMFocus .sapMInputDivWrapper:not(.sapMInputBaseDisabledInner)::before {
+    border: none !important
+}
+
+html.sap-desktop .sapMBtn:focus>.sapMFocusable {
+    outline: 0 dotted #000000 !important;
+    outline-offset: -3px
+}
+
+html.sap-desktop .sapMLnk:focus:not(.sapMLnkDsbl) {
+    outline: 0 dotted #000000
+}
+
+.sapMLIBFocusable:focus {
+    outline: none
+}
+
+.sapMIBar.sapMHeader-CTX {
+    color: #8d3433;
+    background-color: #8d3433;
+    filter: none;
+    background-image: none;
+    height: 4rem
+}
+
+.test {
+    color: #8d3433;
+    background-color: #8d3433;
+    filter: none;
+    background-image: none;
+    height: 4rem
+}
+
+.sapMPage>.sapMPageHeader+section,
+.sapMPage>.sapMPageSubHeader+section,
+.sapMPage>.sapMPageHeader+.sapUiHiddenPlaceholder+section {
+    top: 4rem
+}
+
+.sapMPanel .sapMPanelWrappingDiv .sapMPanelHdr,
+.sapMPanel .sapMPanelWrappingDivTb .sapMIBar.sapMTB {
+    padding-left: .2rem;
+    margin-left: 0
+}
+
+.sapMListTblSubCntRow>.sapMListTblSubCntSpr,
+.sapMListTblSubCntRow>.sapMListTblSubCntHdr .sapMText,
+.sapMListTblSubCntRow>.sapMListTblSubCntHdr .sapMLabel {
+    color: #707070;
+    font-size: 14px;
+    padding-top: 0;
+    font-weight: 500
+}
+
+.sapMBtnInner {
+    text-shadow: none !important
+}
+
+.sapUiSizeCompact .sapMBtn {
+    height: 3rem;
+    padding: 0 0
+}
+
+.sapUiSizeCompact .sapMBtnInner.sapMBtnText {
+    padding: none !important;
+    border-radius: 4px
+}
+
+.sapUiTableCnt {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important
+}
+
+.sapUiTableTr>td {
+    border-right: none !important
+}
+
+.sapUiTableCol {
+    border-right: none !important;
+    font-weight: 500 !important
+}
+
+.sapMIBar-CTX .sapMBtn:hover>.sapMBtnHoverable:not(.sapMBtnActive) {
+    background-color: #d74647;
+    color: #346187
+}
+
+.sapMShellBrandingBar {
+    display: none
+}
+
+.sapUiRootBackground,
+.sapMShellGlobalOuterBackground {
+    background: #b7b7b7
+}
+
+.sapMSegB .sapMSegBBtn {
+    height: 2.5rem;
+    padding: 0 20px 0 20px;
+    width: auto !important;
+    font-size: 16px !important;
+    font-weight: 300 !important
+}
+
+.sapMInputDivWrapper {
+    height: 2.5rem !important
+}
+
+.sapMInputBase {
+    height: 2.5rem !important
+}
+
+.sapMComboBoxTextFieldArrow {
+    padding-top: 4px !important;
+    height: calc(100% - 4px) !important
+}
+
+.sapMInputBaseInner:not(textarea) {
+    border-radius: 3px
+}
+
+.sapMComboBoxTextField:not(textarea) {
+    border-radius: 3px
+}
+
+.sapMComboBoxTextFieldArrow {
+    line-height: 2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.sapMInputDivWrapper {
+    border-radius: 3px
+}
+
+.sapMCbBg {
+    border-radius: 3px !important
+}
+
+html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIcon:focus {
+    outline-width: 0
+}
+
+.sapMTB-Transparent-CTX.sapMTB {
+    padding: 0
+}
+
+html.sap-desktop .sapMSegBBtnFocusable.sapMSegBBtnSel:focus {
+    outline: 0 dotted;
+    outline-offset: -3px;
+    outline-color: #ffffff
+}
+
+.sapUiSizeCompact .sapMSegB {
+    height: 3rem !important
+}
+
+.sapMSegBBtn.sapMSegBBtnSel {
+    background: #157dca
+}
+
+.sapMSegBBtn:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important
+}
+
+.sapMSegBBtn:last-child {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important
+}
+
+.permit-payment-segment .sapMSegBBtn:nth-child(even) {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important
+}
+
+.sapMSegBBtn.sapMSegBBtnFocusable.sapMSegBBtnSel:hover,
+.sapMSegBBtnFocusable.sapMBtnActive:hover,
+html.sap-desktop .sapMSegBBtn.sapMSegBBtnFocusable.sapMSegBBtnSel:hover,
+html.sap-desktop .sapMSegBBtnFocusable.sapMBtnActive:hover {
+    background: #1891eb
+}
+
+.sapUiSizeCompact .sapMInputValHelp {
+    height: 2.5rem !important
+}
+
+.vp-date .sapMInputValHelp>.sapMInputValHelpInner {
+    height: calc(2.5rem - 6px) !important;
+    padding-top: 6px
+}
+
+.sapMInputValHelp {
+    padding-top: 0 !important
+}
+
+.sapMImgFocusable:focus {
+    outline: 0 dotted #000000
+}
+
+html.sap-tablet .sapMDialog,
+html.sap-desktop .sapMDialog {
+    min-width: 30rem !important
+}
+
+html.sap-phone .sapMDialog {
+    min-width: 98vw
+}
+
+.sapMFlexBoxAlignContentStretch {
+    max-width: 100%
+}
+
+.sapMFlexBox {
+    max-width: 100%
+}
+
+.sapUiSizeCompact .sapMSFI {
+    height: 2.5rem
+}
+
+.sapUiSizeCompact .sapMSFF {
+    height: 2.5rem
+}
+
+.sapUiSizeCompact .sapMSFB {
+    height: 2.5rem;
+    line-height: 2.5rem
+}
+
+@media (min-width:450px) {
+    .sapMSegB .sapMSegBBtn {
+        padding: 6px 20px 0 20px
+    }
+}
+
+.sapMMsgStripMessage {
+    overflow: hidden
+}
+
+.text-area-cancel-vp {
+    height: 6rem !important
+}
+
+.text-area-cancel-vp .sapMInputDivWrapper {
+    height: 6rem !important
+}
+
+.text-area-cancel-vp .sapMInputBaseInner {
+    font-family: monospace !important
+}
+
+.text-area-create-vp {
+    height: 8rem !important
+}
+
+.text-area-create-vp .sapMInputDivWrapper {
+    height: 8rem !important
+}
+
+.text-area-create-vp .sapMInputBaseInner {
+    font-family: monospace !important
+}
+
+.header {
+    background: #8d3433;
+    height: 4rem
+}
+
+.responsive-header {
+    width: 100%;
+    margin: 0 auto
+}
+
+.main {
+    background: #f3f3f3
+}
+
+.side {
+    min-width: 25rem;
+    min-height: calc(100vh - 4rem);
+    background: white;
+    padding: 5rem 3rem 3rem 3rem
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 0 0;
+    background: #f3f3f3
+}
+
+.container-violation {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 0 0;
+    background: #f3f3f3
+}
+
+.page {
+    background: #f3f3f3
+}
+
+.dashboard-tile {
+    min-width: 30rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px
+}
+
+.container-dialog {
+    padding: .5rem 2rem 2rem 2rem
+}
+
+@media (min-width:2001px) {
+    .responsive-header {
+        margin: 0 8rem
+    }
+    .main {
+        margin: 0 8rem
+    }
+}
+
+@media (min-width:1851px) and (max-width:2000px) {
+    .responsive-header {
+        margin: 0 4rem
+    }
+    .main {
+        margin: 0 4rem
+    }
+}
+
+@media (min-width:1651px) and (max-width:1851px) {
+    .responsive-header {
+        margin: 0 2rem
+    }
+    .main {
+        margin: 0 2rem
+    }
+}
+
+@media (min-width:1151px) and (max-width:1650px) {
+    .responsive-header {
+        margin: 0 1rem
+    }
+    .main {
+        margin: 0 1rem
+    }
+}
+
+@media (max-width:1150px) {
+    .responsive-header {
+        margin: .5rem .5rem
+    }
+    .main {
+        margin: .5rem .5rem
+    }
+}
+
+@media (max-width:1450px) {
+    .dashboard-tile {
+        min-width: 20rem
+    }
+}
+
+@media (max-width:1280px) {
+    .dashboard-tile {
+        width: 100%;
+        min-width: 15rem
+    }
+    .dashboard-tile-container {
+        width: 100%
+    }
+}
+
+@media (min-width:1100px) {
+    .container-violation {
+        flex-wrap: nowrap
+    }
+}
+
+@media (min-width:800px) {
+    .container {
+        flex-wrap: nowrap
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .side {
+        width: 100%;
+        min-height: auto;
+        padding: 2rem .5rem 2rem .5rem
+    }
+    .main {
+        min-height: 50vh
+    }
+}
+
+@media (max-width:400px) {
+    .main {
+        margin: .5rem .3rem
+    }
+}
+
+.vehicle-input-year {
+    width: 6rem !important
+}
+
+.vehicle-input {
+    width: 9rem !important
+}
+
+.vehicle-combo {
+    width: 9rem !important
+}
+
+@media only screen and (max-width:500px) {
+    .vehicle-input-year {
+        width: 100% !important
+    }
+    .vehicle-input {
+        width: 100% !important
+    }
+    .vehicle-combo {
+        width: 100% !important
+    }
+    .vehicle-input-container {
+        width: 100% !important
+    }
+}
+
+.permit-link-addcomment {
+    margin-top: 6px;
+    font-size: 14px
+}
+
+.permit-link-comment {
+    margin-bottom: -6px;
+    font-size: 14px
+}
+
+.permit-link-another-vehicle {
+    margin-bottom: -0.5rem
+}
+
+.permit-vehicle-container {
+    margin-bottom: -0.8rem
+}
+
+.permit-input-lot {
+    width: 20rem !important;
+    margin-right: 1rem
+}
+
+.permit-input-carpool {
+    width: 100%
+}
+
+.permit-sub-text {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 300
+}
+
+.permit-sub-text-payment {
+    max-width: 30rem
+}
+
+.permit-comment-box {
+    top: 6px !important
+}
+
+.permit-comment-container {
+    width: 28rem
+}
+
+.permit-text-best-effort {
+    width: 580px
+}
+
+.permit-comment-header .sapMFlexItem {
+    align-self: flex-end
+}
+
+.permit-checkbox {
+    margin-left: -0.5rem
+}
+
+.permit-checkbox-text {
+    margin-top: 4px;
+    margin-right: 3px
+}
+
+.permit-checkbox-text-price {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #707070;
+    font-weight: 300
+}
+
+.permit-checkbox-green-vehicle {
+    margin-top: -0.3rem
+}
+
+.permit-border-bottom {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 2rem
+}
+
+.permit-details {
+    padding: 1rem 2rem 2rem 1rem;
+    background-color: #f5f6f6;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3)
+}
+
+.permit-details-add-vehicle {
+    margin-left: 5.6rem
+}
+
+.permit-details-cost {
+    color: #8d3433;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.permit-details-cost-sub {
+    color: #8d3433;
+    font-style: italic;
+    margin-top: 5px
+}
+
+.permit-details-desc {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 600px
+}
+
+.permit-payment-credit {
+    max-width: 680px
+}
+
+.permit-header-text {
+    max-width: 680px
+}
+
+.permit-payment-desc {
+    max-width: 35rem
+}
+
+.permit-add-vehicle-sub-text {
+    margin-top: 6px
+}
+
+.permit-fee-green-discount {
+    text-decoration: line-through
+}
+
+.permit-preferred-lot-radio {
+    display: none;
+    margin-left: -0.9rem
+}
+
+.permit-preferred-lot-radio .sapMRbB .sapMRbBOut {
+    height: 1.2rem !important;
+    width: 1.2rem !important
+}
+
+.permit-preferred-lot-radio .sapMLabel {
+    font-size: 18px
+}
+
+.permit-text-area .sapMInputDivWrapper {
+    min-height: 5rem !important
+}
+
+.permit-text-area.sapMInputBaseInner {
+    min-height: 5rem !important
+}
+
+.permit-text-area.sapMInputBase {
+    min-height: 5rem !important
+}
+
+.permit-header-text {
+    font-size: 16px
+}
+
+.permit-sub-header-text {
+    font-size: 16px;
+    color: #707070 !important
+}
+
+.permit-vehicle-number {
+    font-size: 14px;
+    color: #9e9e9e !important
+}
+
+.permit-container {
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.permit-tos-link {
+    margin-top: 6px
+}
+
+.permit-economy-container {
+    margin-top: 2px
+}
+
+.permit-renew-text {
+    font-size: 18px
+}
+
+.permit-tos-text {
+    font-weight: 600
+}
+
+.permit-jv-text {
+    font-weight: 600
+}
+
+.permit-carpool-tos-text {
+    margin-bottom: 4px
+}
+
+.permit-location {
+    margin-left: .8rem
+}
+
+.permit-location-container .sapMFlexItem {
+    width: 100%
+}
+
+.permit-validity-text {
+    margin-top: 8px
+}
+
+.carpool-zebra-table tbody tr:nth-child(odd) {
+    background-color: #f5f5f5
+}
+
+.carpool-zebra-table .sapMLIBShowSeparator>td {
+    border: o
+}
+
+.carpool-zebra-table .sapMListShowSeparatorsAll .sapMLIBShowSeparator:last-child>td,
+.sapMListShowSeparatorsAll .sapMListTblSubRow:last-child>td {
+    border: 0
+}
+
+.carpool-zebra-table .sapMListShowSeparatorsAll .sapMLIBShowSeparator:last-child>td,
+.sapMListShowSeparatorsAll .sapMListTblSubRow:last-child>td {
+    border: 0
+}
+
+.carpool-zebra-table .sapMListTblHighlightCol+.sapMListTblHeaderCell,
+.sapMListTblHighlightCell+.sapMListTblCell {
+    padding-left: .5rem
+}
+
+.carpool-email {
+    display: none
+}
+
+@media (min-width:523px) {
+    .permit-input-carpool {
+        width: 20rem !important
+    }
+}
+
+@media (max-width:522px) {
+    .carpool-zebra-table {
+        width: 100% !important
+    }
+}
+
+@media (max-width:501px) {
+    .permit-input-lot {
+        width: 100% !important
+    }
+}
+
+@media (max-width:640px) {
+    .permit-details-desc {
+        width: 100%
+    }
+    .permit-payment-credit {
+        width: 100%
+    }
+    .permit-header-text {
+        width: 100%
+    }
+}
+
+@media (max-width:500px) {
+    .permit-preferred-lot-segment.sapMSegB .sapMSegBBtn {
+        width: 50% !important;
+        padding: 6px 10px 0 10px !important
+    }
+    .carpool-zebra-table .sapMListTblHighlightCol+.sapMListTblHeaderCell,
+    .sapMListTblHighlightCell+.sapMListTblCell {
+        padding-left: 1rem
+    }
+}
+
+@media (max-width:555px) {
+    .permit-comment-container {
+        width: 100%
+    }
+    .permit-text-best-effort {
+        width: 100%
+    }
+    .permit-details {
+        padding: 1rem .5rem
+    }
+    .permit-preferred-lot-radio {
+        display: block
+    }
+    .permit-preferred-lot-segment {
+        display: none
+    }
+}
+
+@media (max-width:518px) {
+    .permit-green-driver-discount-container {
+        margin-bottom: .5rem
+    }
+}
+
+@media (max-width:429px) {
+    .permit-checkbox-text-price {
+        margin: 0
+    }
+}
+
+@media (max-width:425px) {
+    .permit-details-cost {
+        font-size: 18px
+    }
+    .permit-details-cost-sub {
+        font-size: 14px
+    }
+    .permit-economy-container {
+        margin-top: 2px
+    }
+    .permit-tos-link {
+        margin-top: 10px
+    }
+    .permit-checkbox-green-vehicle {
+        margin-top: -0.5rem
+    }
+}
+
+@media (max-width:380px) {
+    .permit-cost-container {
+        margin-bottom: .5rem
+    }
+    .carpool-email {
+        display: block
+    }
+}
+
+.permit-details-carpool-email {
+    display: none
+}
+
+.permit-details-carpool-status {
+    display: none
+}
+
+@media (max-width:719px) {
+    .permit-details-carpool-email {
+        display: block
+    }
+}
+
+@media (max-width:471px) {
+    .permit-details-carpool-status {
+        display: block
+    }
+}
+
+@media (max-width:355px) {
+    .permit-details-add-vehicle {
+        margin-left: 0
+    }
+}
+
+@media (max-width:350px) {
+    .permit-payment-segment.sapMSegB .sapMSegBBtn {
+        padding: 0 5px 0 5px !important
+    }
+    .permit-preferred-lot-radio .sapMRbB .sapMRbBOut {
+        height: 1rem !important;
+        width: 1rem !important
+    }
+    .permit-preferred-lot-radio .sapMLabel {
+        font-size: 15px
+    }
+}
+
+.panel {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px
+}
+
+.panel-container {
+    align-items: flex-start
+}
+
+.panel-vehicle {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 60rem
+}
+
+.panel-vehicle-container {
+    align-items: flex-start
+}
+
+.panel-no-padding {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 0 0 !important
+}
+
+.panel-no-padding-container {
+    align-items: flex-start
+}
+
+.panel-dashboard {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 1rem
+}
+
+.panel-dashboard-container {
+    align-items: flex-start
+}
+
+.panel-dashboard-container {
+    max-width: 50rem
+}
+
+.panel-myDept {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 60rem;
+    max-height: 80vh;
+    height: 80vh
+}
+
+.panel-myAcct {
+    max-width: 50rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    background: white;
+    width: "50rem";
+    height: 40vh;
+}
+
+.panel-myDept-container {
+    align-items: flex-start
+}
+
+.panel-myDept-vehicle {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 0 !important;
+    max-width: 30rem;
+    min-width: 28rem
+}
+
+.panel-myDept-vehicle-container {
+    align-items: flex-start
+}
+
+.panel-myDept-vehicle-tile {
+    padding: 1rem 2rem
+}
+
+.panel-dept-vehicles {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 60vw;
+    max-height: 80vh;
+    height: 80vh
+}
+
+.panel-dept-vehicles-container {
+    align-items: flex-start
+}
+
+.panel-dept-vehicles-details {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    min-width: 34rem
+}
+
+.panel-dept-vehicles-details-container {
+    align-items: flex-start
+}
+
+.panel-dept-vehicles-violations {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px
+}
+
+.panel-dept-vehicles-violations-container {
+    align-items: flex-start
+}
+
+.panel-dept-vehicles-violations-details {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    width: 30rem
+}
+
+.panel-dept-vehicles-violations-details-container {
+    align-items: flex-start
+}
+
+.panel-dept-vehicles-violations-appeal {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    min-width: 45rem
+}
+
+.panel-dept-vehicles-violations-appeal-container {
+    align-items: flex-start
+}
+
+.panel-dept-vehicles-violations-payment {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 30rem
+}
+
+.panel-dept-vehicles-violations-payment-container {
+    align-items: flex-start
+}
+
+.panel-visitor {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 60rem;
+    max-height: 80vh
+}
+
+.panel-visitor-container {
+    align-items: flex-start
+}
+
+.panel-visitor-request {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    width: 80rem
+}
+
+.panel-visitor-request-container {
+    align-items: flex-start
+}
+
+.panel-visitor-passes {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    min-width: 30rem !important;
+    max-height: 80vh !important
+}
+
+.panel-visitor-passes-container {
+    align-items: flex-start
+}
+
+.panel-visitor-passes-scroll-container {
+    max-height: 70vh;
+    -ms-overflow-style: none
+}
+
+.panel-visitor-passes-comment {
+    max-height: 10rem;
+    overflow-y: auto;
+    -ms-overflow-style: none
+}
+
+.panel-visitor-scroll-container {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    max-height: 40rem;
+    height: 40rem
+}
+
+.panel-scratch {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 2rem 2rem 2rem 2rem !important;
+    -ms-overflow-style: none;
+    min-height: 80vh;
+    max-height: 80vh;
+    max-width: 60rem
+}
+
+.panel-scratch-container {
+    align-items: flex-start
+}
+
+.panel-scratch-order {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    width: 80rem
+}
+
+.panel-scratch-order-container {
+    align-items: flex-start
+}
+
+.panel-scratch-passes-comment {
+    max-height: 15rem;
+    overflow-y: auto;
+    -ms-overflow-style: none
+}
+
+.panel-scratch-scroll-container {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    max-height: 38rem
+}
+
+.panel-new-permit {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 50rem
+}
+
+.panel-new-permit-container {
+    align-items: flex-start
+}
+
+.panel-table-container {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    max-height: 75vh
+}
+
+.panel-status {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    max-width: 70rem
+}
+
+.panel-status-container {
+    align-items: flex-start
+}
+
+.panel-passes {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    -ms-overflow-style: none;
+    min-height: 80vh;
+    max-height: 80vh;
+    max-width: 60rem
+}
+
+.panel-passes-container {
+    align-items: flex-start
+}
+
+@media (max-width:1450px) {
+    .panel-dept-vehicles {
+        max-width: 45rem
+    }
+}
+
+@media (max-width:1350px) {
+    .panel-dept-vehicles-violations {
+        max-width: 45rem
+    }
+}
+
+@media (max-width:1250px) {
+    .panel-dept-vehicles-violations {
+        max-width: 35rem
+    }
+    .panel-dept-vehicles {
+        max-width: 35rem
+    }
+}
+
+@media (max-width:1449x) and (min-width:1325px) {
+    max-width: 50rem
+}
+
+@media (max-width:1324px) {
+    .panel-myDept {
+        max-width: 45rem
+    }
+}
+
+@media (max-width:1150px) {
+    .panel-myDept {
+        max-width: 35rem
+    }
+}
+
+@media (min-width:1100px) {
+    .panel-violation {
+        margin-right: 1rem
+    }
+    .panel-appeal {
+        margin-right: 1rem
+    }
+}
+
+@media (max-width:1099px) {
+    .panel-appeal {
+        max-width: 100%
+    }
+    .panel-account {
+        max-width: 100%
+    }
+    .panel-appeal {
+        padding: 1rem
+    }
+}
+
+@media (min-width:450px) and (max-width:850px) {
+    .panel-permit {
+        padding: 2rem 1rem
+    }
+    .panel-new-permit {
+        padding: 2rem 1rem
+    }
+    .panel-account {
+        padding: 2rem 1rem
+    }
+    .panel-violation {
+        padding: 2rem 1rem
+    }
+    .panel-ticket {
+        padding: 2rem 1rem
+    }
+}
+
+@media (max-width:449px) {
+    .panel-permit {
+        padding: 1rem .5rem
+    }
+    .panel-new-permit {
+        padding: 1rem 1rem
+    }
+    .panel-account {
+        padding: 1rem 0 0 0
+    }
+    .panel-violation {
+        padding: 1rem 0 0 0
+    }
+    .panel-header {
+        padding: 0 .6rem
+    }
+    .panel-ticket {
+        padding: 1rem
+    }
+}
+
+.icon-tab.sapMLnk:focus:not(.sapMLnkDsbl) {
+    outline-offset: 0;
+    text-decoration: none !important
+}
+
+.icon-tab.sapMLnk:hover:not(.sapMLnkDsbl) {
+    text-decoration: none !important;
+    border-bottom: 2px solid black;
+    color: black !important
+}
+
+.icon-tab.sapMLnk {
+    color: #b3b3b3
+}
+
+.icon-tab .sapMLnk:active:not(.sapMLnkDsbl),
+.icon-tab.sapMLnk:focus:not(.sapMLnkDsbl) {
+    color: black !important
+}
+
+.underline.sapMLnk {
+    border-bottom: 4px solid black !important;
+    color: black
+}
+
+.header {
+    background: #8d3433;
+    height: 70px
+}
+
+.headerSelected {
+    background-color: #d74647
+}
+
+.headerText {
+    color: white
+}
+
+.header-button.sapMBtn {
+    height: 70px;
+    padding: 0 15px
+}
+
+.header-button .sapMBtn {
+    padding: 0
+}
+
+.header-button.sapMMenuBtn {
+    height: 70px;
+    padding: 0 0
+}
+
+.header-button .sapMBtnInner {
+    height: 70px;
+    padding-top: 25px;
+    font-size: 17px
+}
+
+.header-button .sapMBtnContent {
+    color: white
+}
+
+.header-button.sapMBtn .sapMBtnIcon {
+    color: white !important
+}
+
+.header-button.sapMMenuBtn.sapMMenuBtnRegular .sapMBtnInner::after {
+    color: white;
+    padding-top: 23px !important
+}
+
+.header-button .sapUiMnuItm {
+    width: 15rem !important
+}
+
+.envHeader {
+    display: inline-block;
+    font-weight: 500;
+    background-color: white;
+    padding: 4px 10px;
+    color: #467082;
+    border-radius: 8px;
+    white-space: nowrap;
+    margin: 12px 0 0 30px;
+    font-size: 12px
+}
+
+.green-button .sapMBtnInner {
+    color: white !important;
+    background: green !important;
+    padding: 5px 10px !important;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 3rem
+}
+
+.green-button.sapMBtn .sapMBtnIcon {
+    color: white;
+    margin-top: 7px
+}
+
+.green-button .sapMBtnContent {
+    padding: 20px
+}
+
+.blue-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.blue-button .sapMBtnInner.sapMBtnText {
+    padding: 10px 2rem
+}
+
+.blue-button.sapMBtn .sapMBtnIcon {
+    color: white;
+    line-height: 2.5rem
+}
+
+.blue-button .sapMBtnContent {
+    padding: 0 10px !important;
+    font-size: 15px
+}
+
+.blue-button .sapUiSizeCompact .sapMBtnContent {
+    line-height: 2.5rem
+}
+
+.transparent-button .sapMBtnInner {
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.transparent-button .sapMBtnInner.sapMBtnText {
+    padding: 10px 2rem
+}
+
+.transparent-button.sapMBtn .sapMBtnIcon {
+    line-height: 2.5rem
+}
+
+.transparent-button .sapMBtnContent {
+    font-size: 15px
+}
+
+.transparent-button .sapUiSizeCompact .sapMBtnContent {
+    line-height: 2.5rem
+}
+
+.credit-button {
+    margin-right: 3rem
+}
+
+.credit-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.credit-button .sapMBtnInner.sapMBtnText {
+    padding: 10px 2rem
+}
+
+.credit-button.sapMBtn .sapMBtnIcon {
+    color: white;
+    line-height: 2.5rem
+}
+
+.credit-button .sapMBtnContent {
+    padding: 0 10px !important;
+    font-size: 15px
+}
+
+.credit-button .sapUiSizeCompact .sapMBtnContent {
+    line-height: 2.5rem
+}
+
+.credit-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.credit-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.credit-button .sapMBtnContent {
+    padding: 10px
+}
+
+.cancel-button.sapMBtn .sapMBtnIcon {
+    color: red
+}
+
+.red-button .sapMBtnInner {
+    color: white !important;
+    background: #8d3433 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.red-button .sapMBtnInner.sapMBtnText {
+    padding: 10px 2rem
+}
+
+.red-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.red-button .sapMBtnContent {
+    padding: 10px;
+    font-size: 15px
+}
+
+.btn-8 .sapMBtnInner {
+    width: 8rem !important
+}
+
+.cancel-link {
+    color: #467082 !important
+}
+
+.addVehicleButton {
+    height: 3rem;
+    padding: 0
+}
+
+.addVehicleButton.sapMBtn:hover .sapMBtnInner .sapMBtnContent {
+    color: #707070 !important
+}
+
+.addVehicleButton .sapMBtnInner {
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.addVehicleButton .sapMBtnInner .sapMBtnContent {
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555 !important
+}
+
+.addVehicleButton.sapUiSizeCompact .sapMBtn {
+    padding: none !important;
+    height: 3rem !important
+}
+
+.request-permit-button {
+    height: 3rem;
+    padding: 0
+}
+
+.request-permit-button.sapMBtn:hover .sapMBtnInner .sapMBtnContent {
+    color: #707070 !important;
+    background-color: rgba(179, 179, 179, 0.5);
+    border-color: rgba(179, 179, 179, 0.5)
+}
+
+.request-permit-button .sapMBtnInner {
+    background: #f5f6f6 !important;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 3rem;
+    width: 100%
+}
+
+.request-permit-button .sapMBtnInner .sapMBtnContent {
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555 !important
+}
+
+.request-permit-button.sapUiSizeCompact .sapMBtn {
+    padding: none !important;
+    height: 3rem !important
+}
+
+.submit-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.submit-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.submit-button .sapMBtnContent {
+    padding: 2.5rem
+}
+
+.expand-button {
+    transition: .5s
+}
+
+.expand-button.sapMTB-Transparent-CTX .sapMBtn:not(.sapMBtnDisabled)>.sapMBtnInner:not(.sapMToggleBtnPressed):not(.sapMBtnEmphasized):not(.sapMBtnAccept):not(.sapMBtnReject):not(.sapMBtnActive):hover {
+    background: rgba(179, 179, 179, 0)
+}
+
+.seg_button.sapMSegB .sapMSegBBtn {
+    width: auto !important;
+    height: auto !important;
+    padding: .3rem 1rem !important;
+    font-size: 15px
+}
+
+@media (max-width:482px) {
+    .credit-button .sapMBtnInner .sapMBtnContent {
+        white-space: normal;
+        line-height: 1.2rem
+    }
+    .credit-button .sapMBtnInner.sapMBtnText {
+        padding: 30px 10px
+    }
+    .credit-button {
+        margin-bottom: 2rem;
+        margin-right: 0
+    }
+}
+
+.white-background {
+    background-color: white !important
+}
+
+.white-panel {
+    background-color: white !important;
+    align-self: flex-start
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 1rem
+}
+
+.border-bottom-visitor {
+    border-bottom: 1px solid #cccccc
+}
+
+.table-header-center .sapMFlexItem:nth-child(odd) {
+    flex: 1 !important
+}
+
+.title-global {
+    font-size: 26px !important;
+    margin-top: 2rem
+}
+
+.bold-text {
+    font-weight: bold !important
+}
+
+.vehicle-ticket-container {
+    background: #f5f6f6;
+    padding: .5rem 1rem
+}
+
+.text-section-head {
+    font-weight: bold;
+    color: #27508b;
+    font-size: 1rem
+}
+
+.addVehicle-head {
+    font-weight: bold;
+    font-size: 1rem
+}
+
+.blue-text {
+    color: #27508b
+}
+
+.red-text {
+    color: #8d3433
+}
+
+.grey-text {
+    color: grey !important
+}
+
+.warning-text {
+    color: #F1C134;
+    font-size: 14px
+}
+
+.warning-text.sapMFlexItem {
+    margin-top: -0.8rem
+}
+
+.italic-text {
+    font-style: italic
+}
+
+.green-button .sapMBtnInner {
+    color: white !important;
+    background: green !important;
+    padding: 5px 10px !important;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 3rem
+}
+
+.green-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.green-button .sapMBtnContent {
+    padding: 20px
+}
+
+.blue-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.blue-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.blue-button .sapMBtnContent {
+    padding: 10px
+}
+
+.btn-8 .sapMBtnInner {
+    width: 8rem !important
+}
+
+.side-link-container {
+    padding: 0 1rem 0 1rem
+}
+
+.white-container {
+    background: white !important;
+    padding-bottom: 2rem !important
+}
+
+.one-rem-padding {
+    padding: 1rem
+}
+
+.padding-bottom {
+    padding-bottom: 2rem
+}
+
+.progress-indicator .sapMPIBarNeutral {
+    background: #27508b
+}
+
+.xs-pt {
+    padding-top: 3px
+}
+
+.headerSelected {
+    background-color: #d74647
+}
+
+.dashboard-tile-max {
+    max-width: 40rem
+}
+
+.dashboard-no-busy .sapUiLocalBusyIndicatorSizeMedium {
+    font-size: 0 !important
+}
+
+.banner-box {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px
+}
+
+.banner-text {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px
+}
+
+.banner-text-warning {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px;
+    color: #8d3433
+}
+
+.banner-text-pending {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px;
+    color: #F1C134
+}
+
+.banner-text-success {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2px;
+    color: green
+}
+
+.vehicle-header-tile {
+    padding: 2rem
+}
+
+.vehicle-tile {
+    padding: 1rem 2rem
+}
+
+.vehicle-tile-text {
+    color: #707070
+}
+
+.vehicle-tile-title {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.vehicle-tile-temp {
+    padding: 0 1rem
+}
+
+.vehicle-prop-text {
+    color: #707070
+}
+
+.vehicle-warning-text {
+    color: #8d3433;
+    font-weight: 600
+}
+
+.listHeader {
+    background: #e1e1e1;
+    min-height: 3rem;
+    padding: .5rem 1rem .5rem 1rem !important
+}
+
+.listContent {
+    padding: 1rem
+}
+
+.listFooter {
+    background: #f5f6f6;
+    padding: .5rem 1rem .5rem 1rem !important
+}
+
+.listFooterBilling {
+    background: #f5f6f6;
+    height: 5rem;
+    padding: .5rem 1rem .5rem 1rem !important
+}
+
+.listFooterPermit {
+    background: #f5f6f6;
+    height: 3rem
+}
+
+.listFooterPermit .sapMFlexItem {
+    width: 100%
+}
+
+.border-right {
+    border-right: 1px solid #e5e5e5
+}
+
+.listItem {
+    padding: 1rem !important
+}
+
+.billAmount {
+    font-size: 2rem
+}
+
+.billDetails {
+    font-size: 1.1rem
+}
+
+.progressIndicator .sapMFlexBox {
+    width: 100% !important
+}
+
+.link {
+    color: #8d3433 !important;
+    font-size: 1.2rem;
+    width: 15rem
+}
+
+.openBilling {
+    color: #157dca;
+    font-weight: bold
+}
+
+.email {
+    padding: 1rem;
+    background: #f5f6f6
+}
+
+.ticket-issued {
+    background: #8d3433
+}
+
+.ticket-appealed {
+    background: #F1C134
+}
+
+.ticket-text {
+    color: white;
+    font-weight: bold
+}
+
+.ticket-no-border.sapMLIB {
+    border-bottom: none !important
+}
+
+.addVehicleButton {
+    height: 3rem;
+    padding: 0
+}
+
+.addVehicleButton .sapMBtnInner {
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.addVehicleButton .sapMBtnInner .sapMBtnContent {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #707070 !important
+}
+
+.addVehicleButton.sapUiSizeCompact .sapMBtn {
+    padding: none !important;
+    height: 3rem !important
+}
+
+.image-map {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-right: 1.3rem
+}
+
+.selectedItem.sapMListBGTranslucent .sapMListTblHeader,
+.sapMListBGTranslucent .sapMListTblFooter {
+    background: #e8eff6
+}
+
+.customTableHeader-panel th {
+    background: #e5e5e500 0;
+    border-bottom: 0 solid #cccccc
+}
+
+.customTableHeader th {
+    background: #e5e5e500 0;
+    border-bottom: 1px solid #cccccc
+}
+
+.customTableHeaderText .sapMListTblHeaderCell .sapMText {
+    font-size: .7rem !important;
+    color: #9a9898 !important;
+    font-weight: bold !important
+}
+
+.transparent-table-header th {
+    background: #e5e5e500 0
+}
+
+.transparent-table-header th:hover {
+    background: #f0f0f0
+}
+
+.transparent-table-header .sapMListTblHeaderCell .sapMText {
+    font-weight: bold !important
+}
+
+.transparent-table-header tbody tr td .sapMListTblSubCntHdr .sapMText {
+    font-weight: bold !important;
+    color: black
+}
+
+.total-table tbody {
+    display: none !important
+}
+
+.total-table th:hover {
+    background: transparent
+}
+
+.total-table .sapMListTbl th {
+    border-bottom: none
+}
+
+.noBorderBottom.sapMTB {
+    border-bottom-width: 0
+}
+
+.expand-button {
+    transition: .5s
+}
+
+.expand-button.sapMTB-Transparent-CTX .sapMBtn:not(.sapMBtnDisabled)>.sapMBtnInner:not(.sapMToggleBtnPressed):not(.sapMBtnEmphasized):not(.sapMBtnAccept):not(.sapMBtnReject):not(.sapMBtnActive):hover {
+    background: rgba(179, 179, 179, 0)
+}
+
+.panel-no-border {
+    border-bottom: none
+}
+
+.table-container {
+    min-height: 70vh !important
+}
+
+.parking-activity {
+    margin-left: -2.5rem
+}
+
+.ticket-payment-amount {
+    color: #8d3433;
+    font-size: 1.5rem
+}
+
+.ticket-date {
+    font-size: 1.2rem;
+    font-weight: 600
+}
+
+.ticket-number {
+    font-style: italic;
+    font-weight: 500
+}
+
+.ticket-lot {
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.ticket-view-paper {
+    font-size: .8rem;
+    margin-top: 4px
+}
+
+.ticket-container {
+    background: white;
+    padding: 2rem 2.5rem 3.5rem 2.5rem;
+    max-width: 500px
+}
+
+.appeal-file-upload .sapMUCNoDataPage .sapUiIcon {
+    font-size: 3rem !important
+}
+
+.submit-button .sapMBtnInner {
+    color: white !important;
+    background: #467082 !important;
+    padding: 5px 2rem;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.submit-button.sapMBtn .sapMBtnIcon {
+    color: white
+}
+
+.submit-button .sapMBtnContent {
+    padding: 2.5rem
+}
+
+.ticket-appeal-link {
+    margin-bottom: -10px
+}
+
+.affiliation-text {
+    font-size: .8rem;
+    font-style: italic
+}
+
+.account-daily-charge {
+    margin-left: 11.7rem
+}
+
+.seg_button.sapMSegB .sapMSegBBtn {
+    width: auto !important;
+    height: auto !important;
+    padding: .3rem 1rem !important;
+    font-size: 15px
+}
+
+.filter-popover.sapMLIB {
+    padding: 0
+}
+
+.testing th:hover {
+    background: #f0f0f0 !important
+}
+
+.required-field-text {
+    color: #8d3433;
+    font-size: 12px
+}
+
+.required-field-astrix {
+    color: #8d3433;
+    margin-left: 2px
+}
+
+.success {
+    color: green !important
+}
+
+.warning {
+    color: #F1C134 !important
+}
+
+.error {
+    color: #8d3433 !important
+}
+
+.pending {
+    font-style: italic
+}
+
+.table-scroll-container {
+    overflow-y: scroll;
+    -ms-overflow-style: none
+}
+
+.filter-container {
+    padding: 2rem 1rem
+}
+
+.table-header.sapMTB {
+    border-bottom: none !important
+}
+
+.success-message {
+    padding: .5rem;
+    background: #e4f5e4;
+    border-radius: 4px;
+    border: 1px solid #38a238
+}
+
+.visitor-header {
+    height: 10vh !important
+}
+
+.dept-search {
+    margin-top: 9px
+}
+
+.scratch-pass-return-container:not(:first-child) {
+    border-top: 1px solid #cccccc
+}
+
+.scratch-pass-return-container {
+    padding: 1rem 0
+}
+
+.pdf-iframe {
+    width: 100%;
+    height: 100%
+}
+
+@media (max-width:420px) {
+    .title-global {
+        font-size: 20px !important;
+        margin-top: .5rem
+    }
+    .blue-button .sapMBtnInner {
+        padding: .5rem .75rem !important
+    }
+    .green-button .sapMBtnInner {
+        padding: .5rem .5rem !important
+    }
+    .account-daily-charge {
+        margin-left: 2.8rem !important
+    }
+    .addVehicleButton .sapMBtnInner .sapMBtnContent {
+        font-size: 14px;
+        color: #707070 !important
+    }
+}
+
+@media (max-width:340px) {
+    .ticket-appeal-link {
+        margin-top: 1rem
+    }
+}

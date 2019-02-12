@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+	<Link text="{i18n>Global.Link.ISTOffice}" class="sapUiSmallMarginBottom link" wrapping="true"/>
+	<Text text="{i18n>Global.Text.Availability}"/>
+	<!--	<Text text="{i18n>Global.Text.Email}" class="sapUiTinyMarginBottom "/> -->
+	<Link text="{i18n>Global.Text.EmailAddress}"/>
+	<Text text="{i18n>Global.Text.Phone}" class="sapUiSmallMarginBottom" wrapping="true"/>
+	<VBox>
+		<Text text="{i18n>Global.Text.Hours}"/>
+		<Text text="{i18n>Global.Text.Building}" class="sapUiSmallMarginBottom" wrapping="true"/>
+	</VBox>
+	<Text text="{i18n>Global.Text.MoreInfoQuestion}" class="sapUiSmallMarginBottom" wrapping="true"/>
+</core:FragmentDefinition>

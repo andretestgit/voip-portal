@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+	<VBox items="{myaccounts>/}" justifyContent="SpaceBetween" class="sapUiSmallMarginTop">
+		<items>
+			<VBox class="panel-myAcct sapUiMediumMarginBottom" width="60rem">
+				<HBox justifyContent="SpaceBetween" alignItems="End" class="listHeader">
+					<Text text="{myaccounts>acct_name}" class="sapMText"/>
+					<Text text="{myaccounts>acct_phonenumber}" class="sapMText sapMTextBreakWord sapMTextMaxWidth sapUiSelectable"/>
+				</HBox>
+				<VBox class="listContent">
+					<VBox justifyContent="SpaceBetween">
+						<Text text="{myaccounts>acct_username}"/>
+						<Text text="Caller ID: {myaccounts>acct_callerid}"/>
+					</VBox>
+					<VBox items="{myaccounts>acct_devices}">
+						<items>
+							<VBox>
+								<Text text="{path:'myaccounts>device'}" class="sapUiSmallMarginBottom sapUiSmallMarginEnd" wrapping="true"/>
+							</VBox>
+							<VBox>
+								<Text text="{path:'myaccounts>description'}" class="sapUiSmallMarginBottom sapUiSmallMarginEnd" wrapping="true"/>
+							</VBox>
+						</items>
+					</VBox>
+				</VBox>
+			</VBox>
+		</items>
+	</VBox>
+</core:FragmentDefinition>
