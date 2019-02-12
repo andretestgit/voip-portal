@@ -18,13 +18,14 @@
 					<core:Icon src="sap-icon://sys-cancel" class="sapUiTinyMarginEnd" press="onPressDeleteBannerMessage" visible="{sessionData>cancel}"/>
 				</HBox>
 			</VBox>
-			<VBox wrap="Wrap" class="responsive-padding" width="100%">
-				<HBox alignItems="End" class="sapUiTinyMarginBottom dashboard-tile-max" width="100%">
-					<Text text="{i18n>Dashboard.Text.MyAccounts}" class="title-global sapUiSmallMarginTop sapUiTinyMarginEnd"/>
-					<Link id="myAccount_link" text="{i18n>Dashboard.Link.SwitchToListView}" class="sapUiLargeMarginTop sapUiTinyMarginEnd"
-						press="onPressViewDetails" textAlign="Right"/>
+			<VBox wrap="Wrap" justifyContent="SpaceBetween" class="responsive-padding" width="100%">
+				<HBox alignItems="End" class="dashboard-tile-max" width="100%">
+					<Text text="{i18n>Dashboard.Text.MyAccounts}" class="title-global sapUiSmallMarginTop sapUiTinyMarginEnd" width="10rem"/>
+					<Link id="myAccount_link" text="{i18n>Dashboard.Link.SwitchToListView}" class="sapUiLargeMarginTop" press="onPressViewDetails"
+						textAlign="Right"/>
 					<VBox class="proxy-account-switch">
-						<Link id="myProxyAccounts_link" text="{i18n>Dashboard.Link.SwitchToProxyAccounts}" press="onPressViewDetails" textAlign="Right"/>
+						<Link id="myProxyAccounts_link" text="{i18n>Dashboard.Link.SwitchToProxyAccounts}" class="sapUiLargeMarginTop" press="onPressViewDetails"
+							textAlign="Right"/>
 					</VBox>
 				</HBox>
 				<VBox height="100%" class="dashboard-tile-container">
