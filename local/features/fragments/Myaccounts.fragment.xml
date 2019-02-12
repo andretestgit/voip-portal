@@ -2,24 +2,22 @@
 	<VBox items="{myaccounts>/}" justifyContent="SpaceBetween" class="sapUiSmallMarginTop">
 		<items>
 			<VBox class="panel-myAcct sapUiMediumMarginBottom" width="60rem">
-				<HBox justifyContent="SpaceBetween" alignItems="End" class="listHeader">
+				<HBox alignItems="Start" class="listHeader">
 					<Text text="{myaccounts>acct_name}" class="sapMText"/>
-					<Text text="{myaccounts>acct_phonenumber}" class="sapMText sapMTextBreakWord sapMTextMaxWidth sapUiSelectable"/>
+					<Text text="{myaccounts>acct_phonenumber}" class="sapMText sapMTextBreakWord sapMTextMaxWidth sapUiSelectable proxy-account-switch"/>
 				</HBox>
 				<VBox class="listContent">
 					<VBox justifyContent="SpaceBetween">
-						<Text text="{myaccounts>acct_username}"/>
-						<Text text="Caller ID: {myaccounts>acct_callerid}"/>
+						<Text text="{myaccounts>acct_username}" class="bold-text"/>
+						<Text text="Caller ID: {myaccounts>acct_callerid}" class="sapUiSmallMarginBottom"/>
 					</VBox>
-					<VBox items="{myaccounts>acct_devices}">
-						<items>
-							<VBox>
-								<Text text="{path:'myaccounts>device'}" class="sapUiSmallMarginBottom sapUiSmallMarginEnd" wrapping="true"/>
-							</VBox>
-							<VBox>
+					<VBox items="{myaccounts>acct_devices}" justifyContent="SpaceBetween">
+						<VBox>
+							<items justifyContent="SpaceBetween">
+								<Text text="{path:'myaccounts>device'}" wrapping="true"/>
 								<Text text="{path:'myaccounts>description'}" class="sapUiSmallMarginBottom sapUiSmallMarginEnd" wrapping="true"/>
-							</VBox>
-						</items>
+							</items>
+						</VBox>
 					</VBox>
 				</VBox>
 			</VBox>
