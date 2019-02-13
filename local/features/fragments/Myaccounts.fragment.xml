@@ -7,15 +7,32 @@
 					<Text text="{myaccounts>acct_phonenumber}" class="sapMText sapMTextBreakWord sapMTextMaxWidth sapUiSelectable proxy-account-switch"/>
 				</HBox>
 				<VBox class="listContent">
-					<VBox justifyContent="SpaceBetween">
-						<Text text="{myaccounts>acct_username}" class="bold-text"/>
-						<Text text="Caller ID: {myaccounts>acct_callerid}" class="sapUiSmallMarginBottom"/>
+					<VBox>
+						<HBox>
+							<Image src="local/images/returnpass.png" height="3rem" press="onNavHome" class="sapUiMediumMarginEnd"/>
+							<VBox justifyContent="SpaceBetween">
+								<Text text="{myaccounts>acct_username}" class="bold-text"/>
+								<Text text="Caller ID: {myaccounts>acct_callerid}" class="sapUiSmallMarginBottom"/>
+							</VBox>
+							<HBox>
+								<Image src="local/images/returnpass.png" height="3rem" press="onNavHome" class="sapUiMediumMarginEnd"/>
+								<VBox justifyContent="SpaceBetween">
+									<Text text="{myaccounts>acct_vmenabled}" class="bold-text"/>
+									<Text text="Caller ID: {myaccounts>acct_callerid}" class="sapUiSmallMarginBottom"/>
+								</VBox>
+							</HBox>
+						</HBox>
 					</VBox>
 					<VBox items="{myaccounts>acct_devices}" justifyContent="SpaceBetween">
 						<VBox>
 							<items justifyContent="SpaceBetween">
-								<Text text="{path:'myaccounts>device'}" wrapping="true"/>
-								<Text text="{path:'myaccounts>description'}" class="sapUiSmallMarginBottom sapUiSmallMarginEnd" wrapping="true"/>
+								<HBox>
+									<Image src="local/images/returnpass.png" height="3rem" press="onNavHome" class="sapUiMediumMarginEnd"/>
+									<VBox>
+										<Text text="{path:'myaccounts>device'}" wrapping="true"/>
+										<Text text="{path:'myaccounts>description'}" class="sapUiSmallMarginBottom sapUiSmallMarginEnd" wrapping="true"/>
+									</VBox>
+								</HBox>
 							</items>
 						</VBox>
 					</VBox>
